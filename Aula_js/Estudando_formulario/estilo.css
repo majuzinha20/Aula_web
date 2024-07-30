@@ -1,13 +1,56 @@
+body{
+    padding: 20px 60px 20px 60px ;
+    background-color: aqua;
+}
+
+#corpo{
+    background-color: white;
+}
+
 #title{
     margin: auto;
-    text-align: center;
+    text-align: center; 
+    color: black;
     
 }
 #evento{
     height: 200px;
-    border: solid blue 1px;
+    display: flex;
+    background-color: white;
+    
+}
+#infomação{
+margin-top: 54px;
+}
+
+#sobre{
+ width: 200px;
+ height: 200px;
+ border: solid mediumblue 1px;
+}
+#sobreevento{
+    margin-left: auto;
+    font-size: medium;
 
 }
-.container {
+p{
+    margin: 5px;
+    font-weight: bolder;
+    font-size: medium;
+     
+}
+#infomaçõesdosparticipantes{
+    margin: 20px;
+    height: 280px;
     display: flex;
-  }
+    
+}
+#imagem{
+    background-image: url(Imagem/Sofia.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 380px;
+}
+
