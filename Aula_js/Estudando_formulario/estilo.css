@@ -4,6 +4,10 @@
     
 }
 #evento{
-    height: 100px;
-    
+    height: 200px;
+    border: solid blue 1px;
+
 }
+.container {
+    display: flex;
+  }
