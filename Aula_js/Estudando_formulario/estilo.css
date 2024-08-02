@@ -11,37 +11,80 @@ body{
     margin: auto;
     text-align: center; 
     color: black;
-    
 }
+
 #evento{
     height: 200px;
     display: flex;
-    background-color: white;
-    
-}
-#infomação{
-margin-top: 54px;
+    background-color: white; 
 }
 
 #sobre{
- width: 200px;
- height: 200px;
- border: solid mediumblue 1px;
- margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
 }
-#sobreevento{
-    margin-left: auto;
-    font-size: medium;
 
+#sobreevento{
+    margin: 7px;
+    margin-top: 5px;
+    color: blueviolet;
+    font-size: larger;
+    font-weight: bold;
 }
+
+.primeiraclass{
+    margin: 5px;
+    font-weight: bolder;
+    font-size: medium;
+}
+.segundaclasse{
+    margin: 5px;
+    font-size: medium;
+}
+
+#infomação{
+height: 150px;
+margin-top: 29px;
+margin-left: 5px;
+}
+#imagem{
+    width: 235px;
+    
+}
+
+#sofia{
+    background-image: url(Imagem/Sofia.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 380px;
+}
+
 p{
     margin: 5px;
     font-weight: bolder;
     font-size: medium;
      
 }
+
+#participantes{
+    margin-left: 20px;
+}
+
+#infomaçõesdosparticipantes{
+    margin: 20px;
+    height: 280px;
+    display: flex;
+}
+
 .caixa{
-    width:45%;
+    width: 20%;
+    display: inline-flex;
+    margin-left: 50px;
+    height: 25px;
+
 }
 #nome{
     margin: 3px;
@@ -56,27 +99,6 @@ p{
     width: 255px;
 }
 
-#infomaçõesdosparticipantes{
-    margin: 20px;
-    height: 280px;
-    display: flex;
-}
-#imagem{
-    background-image: url(Imagem/Sofia.jpg);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    border-radius: 50%;
-    margin-left: 380px;
-}
- #participantes{
-    margin-left: 20px;
-
- }
-
-#nomecomplet{
- margin: 20px;
-}
 
 
 
