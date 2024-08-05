@@ -12,6 +12,9 @@ body{
     text-align: center; 
     color: black;
 }
+hr{
+    width: 780px;
+}
 
 #evento{
     height: 200px;
@@ -50,7 +53,6 @@ margin-left: 5px;
 }
 #imagem{
     width: 235px;
-    
 }
 
 #sofia{
@@ -66,11 +68,31 @@ p{
     margin: 5px;
     font-weight: bolder;
     font-size: medium;
-     
+}
+
+#palestrante{
+   text-align: center;
+   padding: 0px;
+   margin: 0px;
+   font-size: medium;
+   margin-top: -0px;
+}
+
+#nome{
+   text-align: center;
+   padding: 0px;
+   margin: 0px;
+   font-weight: bolder;
+   font-size: medium;
 }
 
 #participantes{
-    margin-left: 20px;
+    margin: 10px;
+    height: 220px;
+}
+
+#linha{
+    display: flex;
 }
 
 #infomaçõesdosparticipantes{
@@ -86,11 +108,18 @@ p{
     height: 25px;
 
 }
-#nome{
+
+#fullname{
     margin: 3px;
     margin-top: -3px;
     margin-left: 15px;
     width: 445px;
+}
+
+#name{
+    width: 440px;
+    margin-left: 
+    ;
 }
 #data_nascimento{
     margin: 3px;
